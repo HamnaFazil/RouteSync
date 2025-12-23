@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+# RouteSync (SmartRoute AI)
 
-## How can I edit this code?
+Advanced Route Optimization & Emergency Navigation System
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**RouteSync** is a high-performance, graph-based navigation system that computes optimal routes in dynamic urban networks. Leveraging real-time traffic updates, road block detection, and emergency prioritization, it delivers efficient, reliable, and adaptive pathfinding. Built entirely as a solo project, it showcases deep mastery of **data structures, algorithms, and modern web development**.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Dynamic shortest-path computation** using Dijkstra, A*, and Bellman-Ford
+* **Real-time traffic simulation** with dynamic edge weights
+* **Emergency vehicle routing** prioritizing fastest response
+* **Interactive visualization** of algorithm execution and pathfinding
+* **Road blocking and rerouting** for realistic urban simulations
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* **Vite** – Fast frontend tooling
+* **TypeScript** – Strongly typed JavaScript
+* **React** – Component-based interactive UI
+* **shadcn-ui** – Clean, accessible UI components
+* **Tailwind CSS** – Efficient, responsive styling
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Data Structures & Algorithms
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+* Graph (Adjacency List) – Efficient representation of road networks
+* Priority Queue (Min Heap) – Optimized node selection
+* Hash Map – Fast lookup for nodes and edges
+* Dijkstra, A*, Bellman-Ford – Core pathfinding algorithms for real-time decision making
+
+---
+
+## How to Use
+
+1. **Select Start (🟢) and End (🔴) nodes**
+2. **Choose Algorithm**: Dijkstra, A*, Bellman-Ford
+3. **Click “Find Optimal Route”** to visualize the path
+
+**Advanced Controls:**
+
+* Block roads to simulate closures
+* Simulate traffic congestion
+* Enable emergency mode for priority routing
+* Reset system to initial state
+
+**Visual Indicators:**
+🟢 Start | 🔴 End | 🔵 Optimal Path | 🟡 Visited Nodes | 🟠 Traffic | ❌ Blocked Roads
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/HamnaFazil/RouteSync.git
+cd RouteSync
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+**Requirements:** Node.js 18+, npm
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Live Demo:** `https://your-demo-link-here`
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Solo Project & Impact
 
-## What technologies are used for this project?
+Built **entirely independently**, demonstrating:
 
-This project is built with:
+* End-to-end system design and implementation
+* Integration of complex algorithms with a modern web frontend
+* Real-time problem solving and adaptive routing
+* Practical application of DSA skills in a real-world scenario
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## Author
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+**Hamna Fazil**  
+Undergraduate in Computing and Information System
+Sabaragamuwa University of Sri Lanka
+  Sole developer of RouteSync (SmartRoute AI)
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
